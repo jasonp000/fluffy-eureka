@@ -18,7 +18,6 @@ resource "aws_instance" "web" {
     "Identity"    = var.identity
     "Name"        = "Computer ${count.index + 1}/${var.num_webs}"
     "Environment" = "Training"
-    "Jeffs"       = "3"
   }
 
   connection {
