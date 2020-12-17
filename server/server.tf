@@ -36,7 +36,7 @@ resource "aws_instance" "web" {
     inline = [
       "sudo apt update -y; sleep 10",
       "sudo sh /tmp/assets/setup-web.sh",
-      #"sudo sh /tmp/assets/setup-sopel.sh",
+      "sudo sh /tmp/assets/setup-sopel.sh",
       #"sleep 60 && sudo reboot &",
     ]
   }
