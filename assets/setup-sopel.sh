@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt update -y
 git clone git://github.com/sopel-irc/sopel.git
 sudo apt install python-pip -y
 cd sopel
